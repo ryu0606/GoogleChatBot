@@ -6,7 +6,7 @@ time = NowTime
 dt_now = time.getNowTime()
 
 # {Webhook URL}を指定してGoogleChatインスタンスを生成
-chat = GoogleChat("https://chat.googleapis.com/v1/spaces/AAAASO24mf0/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=HJ4y1Wy2ruMtq1wnFfnpttl2YBvZh6j4Zt6vVoS2fe8")
+chat = GoogleChat("googlechatのURL")
 
 # テキストメッセージを投稿
 chat.postText("*"+ dt_now +"諸連絡*")
